@@ -13,18 +13,19 @@
       <p id="description">This is a survey form to submmit to the bootcamp</p>
       <form id="survey-form" >
         <div>
-          <p>Name</p>
+          <label id="name-label">Name</label>
+
           <input id='name' type='text' required placeholder="Name" />
         </div>
         
         <div>
-          <p>Email</p>
+          <label id="email-label">Email</label>
           <input type="email" name="Email" id="email" required placeholder="Email" />
         </div>
 
         <div>
-          <p>Age (optional)</p>
-          <input id="number" type="number" />
+          <label id="number-label">Age</label>
+          <input id="number" type="number" min="16" max="100"/>
         </div>
         
       </form>
